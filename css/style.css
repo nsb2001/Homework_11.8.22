@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+
+h1,  h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+
+.container{
+    padding: 30px 10px;
+    background: teal;
+    margin-bottom: 100px;
+}
+
+.options{
+    margin: 0 auto;
+    width: 730px;
+}
+
+.options button{
+    padding: 15px 20px;
+    background: tomato;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+}
+
+.box{
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.undo_one{
+    padding-top: 100px;
+}
+
+.undo_one #undo{
+
+    display: block;
+    padding: 15px 20px;
+    background: white;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
